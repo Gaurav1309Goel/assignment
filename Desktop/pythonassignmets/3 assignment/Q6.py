@@ -1,10 +1,10 @@
-def fibonacci(a):
-    if a == 1:
+def fibonacci(n):
+    if n == 1:
         return 0
-    elif a == 2:
+    elif n == 2:
         return 1
     else:
-        return fibonacci(a-1) + fibonacci(a-2)
+        return fibonacci(n-1) + fibonacci(n-2)
 
 b = input("enter any number")
 print fibonacci(b)
