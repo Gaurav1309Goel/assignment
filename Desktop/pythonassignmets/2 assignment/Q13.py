@@ -22,7 +22,7 @@ if c == 0:
     print l3
   
 else:
-   print "Error"
+   print "Bad Error"
     
     
 
