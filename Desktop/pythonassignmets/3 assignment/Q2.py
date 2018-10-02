@@ -1,24 +1,24 @@
 #for-loop
 #very important
-l=[1,234,3465]
+l1=[1,234,3465]
 sum = 0
-for i in range(0,len(l)):
-   sum+= l[i]
+for i in range(0,len(l1)):
+   sum+= l1[i]
 print sum
 #while-loop
-l=[1,234,3465]
+l1=[1,234,3465]
 sums = 0
 i = 0
-while(i<len(l)):
-    sums+=l[i]
+while(i<len(l1)):
+    sums+=l1[i]
     i+=1
 print sums
 #recursive function
-l=[1,234,3465]
+l1=[1,234,3465]
 
-def sums(l):
-  if len(l) == 1:
-      return l[0]
+def sums(l1):
+  if len(l1) == 1:
+      return l1[0]
   else:
-      return l[0] + sums(l[1:])
-print sums(l)
+      return l1[0] + sums(l1[1:])
+print sums(l1)
