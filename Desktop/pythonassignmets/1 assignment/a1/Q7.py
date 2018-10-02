@@ -1,3 +1,3 @@
-x = raw_input("FIRST NAME")
-y = raw_input("SECOND NAME")
+x = raw_input("YOUR FIRST NAME")
+y = raw_input("YOUR SECOND NAME")
 print x+y
