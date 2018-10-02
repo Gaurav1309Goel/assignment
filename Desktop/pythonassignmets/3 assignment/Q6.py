@@ -1,11 +1,11 @@
-def fibonacci(n):
-    if n == 1:
+def fibonacci(a):
+    if a == 1:
         return 0
-    elif n == 2:
+    elif a == 2:
         return 1
     else:
-        return fibonacci(n-1) + fibonacci(n-2)
+        return fibonacci(a-1) + fibonacci(a-2)
 
-a = input("enter any number")
-print fibonacci(a)
+b = input("enter any number")
+print fibonacci(b)
 
