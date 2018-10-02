@@ -1,4 +1,4 @@
-def sum():
+def sum_of_list_of_list():
 
     l1 = [10,20,30]
     y = 0
@@ -10,4 +10,4 @@ def sum():
         x = x + j
     print x  
 
-sum()
+sum_of_list()
