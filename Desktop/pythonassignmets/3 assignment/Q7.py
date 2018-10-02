@@ -7,8 +7,8 @@ def mymax(lst):
         return mymax(lst[1:])
 
 lst = []
-n = input("enter the lenght of list")
-for i in range(0,n):
+j = input("enter the lenght of list")
+for i in range(0,j):
     a = input("enter the numbers")
     lst.append(a)
 
