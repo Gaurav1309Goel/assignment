@@ -4,4 +4,4 @@ if(x=='y'):
      print("HELLO")
 else:
 
-    print("Bye")
+    print("Bye-Bye")
