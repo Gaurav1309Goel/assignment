@@ -1,4 +1,4 @@
-l1 = [6,'a','a',8,9,"Pankti",3,"Pankti",8,3,1]
+l1 = [6,'a',8,9,"Pankti",3,"Pankti",8,3,1]
 l2 = []
 print l1
 for i in range(0,len(l1)):
@@ -9,6 +9,6 @@ for i in range(0,len(l1)):
     if c==0:
             l2.append(l1[i])
 print            
-print "The list after removing the repeated numbers is :- "            
+print "The list after removing the repeated numbers is :- ",            
 print l2            
 
